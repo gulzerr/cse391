@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(https://nilliawebdesign.com/images/hero-index.jpg) no-repeat;
+    background: url(https://nilliawebdesign.com/images/hero-index.jpg) no-repeat fixed;
     /* background-size: cover; */
 }
 
@@ -49,8 +49,18 @@ ul{
     font-size: 40px;
     transition: all ease-in-out 250ms;
 }
+.box p a{
+    color: tomato;
+    text-decoration: none;
+}
 .box li a :hover{
     color:whitesmoke;
+}
+.qualification{
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
 }
 th, td {
     border: 1px solid white;
@@ -81,9 +91,10 @@ table{
       z-index: 1;
       border-bottom: 2px solid tomato;
   }
-  #navbar h2 a{
+  #navbar li h2 a{
       color: tomato;
-      text-decoration: none;
+      font-size: 30px;
+      list-style: none;
   }
   #navbar ul{
       display: flex;
@@ -100,4 +111,8 @@ table{
   }
   #navbar li a:hover{
     background-color: tomato;
+}
+
+#mainFooter{
+    color: antiquewhite;
 }
