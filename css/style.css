@@ -96,7 +96,7 @@ table{
       font-size: 30px;
       list-style: none;
   }
-#navbar li h2 a:hover{
+  #navbar li h2 a:hover{
       background-color: white;
   }
   #navbar ul{
