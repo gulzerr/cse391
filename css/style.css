@@ -96,6 +96,9 @@ table{
       font-size: 30px;
       list-style: none;
   }
+#navbar li h2 a:hover{
+      background-color: white;
+  }
   #navbar ul{
       display: flex;
       align-items: center;
